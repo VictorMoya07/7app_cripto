@@ -27,7 +27,7 @@ const Boton = styled.input`
 
 
 
-const Formulario = (guardarCriptomoneda, guardarMoneda) => {
+const Formulario = ({guardarCriptomoneda, guardarMoneda}) => {
 
     //state del listado de criptomonedas
      const [listacripto, guardarCriptomonedas] = useState([]);
